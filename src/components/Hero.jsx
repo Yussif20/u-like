@@ -2,7 +2,7 @@ import ulikeImage from '../assets/ulike.svg';
 
 export const Hero = () => {
   return (
-    <section className="w-5/6 mx-auto flex items-center justify-between gap-2 min-h-[110vh]">
+    <section className="flex items-center justify-between gap-2">
       <div className="flex-1 flex flex-col items-start">
         <h1 className="text-dark text-[52px] font-medium leading-14">
           تطوير أعمالك يبدأ

@@ -22,7 +22,7 @@ export const Header = () => {
       className={`py-6 px-4 sm:px-10 transition-all duration-300 ease-in-out ${
         isSticky
           ? 'fixed top-0 left-0 right-0 z-50 shadow-md bg-white'
-          : 'fixed top-0 left-0 right-0 z-50'
+          : 'fixed top-0 left-0 right-0 z-50 bg-white lg:bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -118,7 +118,7 @@ export const Header = () => {
                 ? 'transparent'
                 : window.innerWidth >= 1024
                 ? 'linear-gradient(to right, #553BB5, #7763C4)'
-                : '#553BB5',
+                : 'transparent',
               color: isHovered ? '#553BB5' : '#ffffff',
               border: isHovered ? '2px solid #553BB5' : '2px solid transparent',
             }}

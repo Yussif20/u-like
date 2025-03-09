@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Layout, Home, ErrorPage } from './pages';
+import { Rights } from './pages/Rights';
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: '/error', element: <ErrorPage /> },
       { path: '/*', element: <ErrorPage /> },
+      { path: '/rights', element: <Rights /> },
     ],
   },
 ]);
